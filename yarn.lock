@@ -2712,9 +2712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-documenter@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@microsoft/api-documenter@npm:7.21.5"
+"@microsoft/api-documenter@npm:^7.21.7":
+  version: 7.21.7
+  resolution: "@microsoft/api-documenter@npm:7.21.7"
   dependencies:
     "@microsoft/api-extractor-model": 7.26.4
     "@microsoft/tsdoc": 0.14.2
@@ -2725,7 +2725,7 @@ __metadata:
     resolve: ~1.22.1
   bin:
     api-documenter: bin/api-documenter
-  checksum: 19fe2080b1c83d963dbd73f186b651ef589f516d2004db01a09418347d9b17cca73f0654b7d78dc38428ff1ec542fd65b0f0be82ead467271c1e79d78432fdc6
+  checksum: fc85b7a9ef7e9d19e6ec457c5acde71a8b5817bd3c62739e98937dff9103d3c4bea32aa21e428c049abd878516c1d2f045e20439da12462606bfc95a4d492ea1
   languageName: node
   linkType: hard
 
@@ -4764,7 +4764,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@webex/cli-tools@workspace:packages/tools/cli"
   dependencies:
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.21.7
     "@microsoft/api-extractor": ^7.34.4
     "@types/eslint": ^8
     "@types/jasmine": ^4
@@ -5456,7 +5456,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.10
     "@babel/register": ^7.21.0
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.21.7
     "@microsoft/api-extractor": ^7.34.4
     "@types/babel__core": ^7
     "@types/eslint": ^8
@@ -5526,7 +5526,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@webex/package-tools@workspace:packages/tools/package"
   dependencies:
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.21.7
     "@microsoft/api-extractor": ^7.34.4
     "@types/eslint": ^8
     "@types/jasmine": ^4
