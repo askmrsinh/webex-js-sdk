@@ -2712,20 +2712,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-documenter@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@microsoft/api-documenter@npm:7.21.5"
+"@microsoft/api-documenter@npm:^7.22.6":
+  version: 7.22.6
+  resolution: "@microsoft/api-documenter@npm:7.22.6"
   dependencies:
-    "@microsoft/api-extractor-model": 7.26.4
+    "@microsoft/api-extractor-model": 7.27.0
     "@microsoft/tsdoc": 0.14.2
-    "@rushstack/node-core-library": 3.55.2
-    "@rushstack/ts-command-line": 4.13.2
+    "@rushstack/node-core-library": 3.59.1
+    "@rushstack/ts-command-line": 4.13.3
     colors: ~1.2.1
     js-yaml: ~3.13.1
     resolve: ~1.22.1
   bin:
     api-documenter: bin/api-documenter
-  checksum: 19fe2080b1c83d963dbd73f186b651ef589f516d2004db01a09418347d9b17cca73f0654b7d78dc38428ff1ec542fd65b0f0be82ead467271c1e79d78432fdc6
+  checksum: bea69395c295a5fc60dedb8b69ca82de28305ebf509e1ab9d07d46617c137999f82a8bc94c313170d500d075d8f0d4864ebd9ff5c5e4ab1151c9a4a5de62ddff
   languageName: node
   linkType: hard
 
@@ -2737,6 +2737,17 @@ __metadata:
     "@microsoft/tsdoc-config": ~0.16.1
     "@rushstack/node-core-library": 3.55.2
   checksum: 0b27f9b248396422f3044f2472d86c111a6a4d34b4fd2c67d9995e96e5b144ec41ac35dbf2a005f144766814b824518bc42b424d93e3075d3dc1b17c2f8791d6
+  languageName: node
+  linkType: hard
+
+"@microsoft/api-extractor-model@npm:7.27.0":
+  version: 7.27.0
+  resolution: "@microsoft/api-extractor-model@npm:7.27.0"
+  dependencies:
+    "@microsoft/tsdoc": 0.14.2
+    "@microsoft/tsdoc-config": ~0.16.1
+    "@rushstack/node-core-library": 3.59.1
+  checksum: df9818e507fc156acf60dc4bb8759f42506b166b0cf8963a585a38f8f5822169084725472c9196773f0fb77bf5071bfcfacc6d7c698b7ec4a3decdf093375df3
   languageName: node
   linkType: hard
 
@@ -2917,6 +2928,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rushstack/node-core-library@npm:3.59.1":
+  version: 3.59.1
+  resolution: "@rushstack/node-core-library@npm:3.59.1"
+  dependencies:
+    colors: ~1.2.1
+    fs-extra: ~7.0.1
+    import-lazy: ~4.0.0
+    jju: ~1.4.0
+    resolve: ~1.22.1
+    semver: ~7.3.0
+    z-schema: ~5.0.2
+  peerDependencies:
+    "@types/node": "*"
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+  checksum: 2011c4ee736379f977d1b610e404f4a5771159c2b73e29d27b0b028c0141a100795d7263cae19621e5e311c516e9392d0e1aba0153c06e77929dba2776cce4c8
+  languageName: node
+  linkType: hard
+
 "@rushstack/rig-package@npm:0.3.18":
   version: 0.3.18
   resolution: "@rushstack/rig-package@npm:0.3.18"
@@ -2936,6 +2967,18 @@ __metadata:
     colors: ~1.2.1
     string-argv: ~0.3.1
   checksum: 3938e533e08d5cf4007a651d1aab658a7a60d6136a56414e2370b64434657a5d5a9eff442da4ddc260d5e6dc90f82428de64dbcfa1285e9ae176629f7fcd821d
+  languageName: node
+  linkType: hard
+
+"@rushstack/ts-command-line@npm:4.13.3":
+  version: 4.13.3
+  resolution: "@rushstack/ts-command-line@npm:4.13.3"
+  dependencies:
+    "@types/argparse": 1.0.38
+    argparse: ~1.0.9
+    colors: ~1.2.1
+    string-argv: ~0.3.1
+  checksum: bef8088712361d1051ca21027cded5358cdf73440d9ea7a7e517d868524a3e483cdac72f0fe0aa5e2ffd7a1feeddb7cff224b06f91e66c0846fdf3d126ec9248
   languageName: node
   linkType: hard
 
@@ -4764,7 +4807,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@webex/cli-tools@workspace:packages/tools/cli"
   dependencies:
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.22.6
     "@microsoft/api-extractor": ^7.34.4
     "@types/eslint": ^8
     "@types/jasmine": ^4
@@ -5456,7 +5499,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.10
     "@babel/register": ^7.21.0
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.22.6
     "@microsoft/api-extractor": ^7.34.4
     "@types/babel__core": ^7
     "@types/eslint": ^8
@@ -5526,7 +5569,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@webex/package-tools@workspace:packages/tools/package"
   dependencies:
-    "@microsoft/api-documenter": ^7.21.5
+    "@microsoft/api-documenter": ^7.22.6
     "@microsoft/api-extractor": ^7.34.4
     "@types/eslint": ^8
     "@types/jasmine": ^4
